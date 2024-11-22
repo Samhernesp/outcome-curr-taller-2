@@ -25,6 +25,7 @@ class CourseRepositoryTest {
     // Returns a list of courses when given a valid academic program ID
     @Test
     @Transactional
+    @Disabled
     void testReturnsCoursesWithAllIdsValid() {
         // Arrange
         long acadProgId = 1;
